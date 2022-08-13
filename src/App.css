@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.container
+{
+    flex-direction: column;
+    height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header
+{
+    text-align: center;
+    text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.generalInfo 
+{
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.infected
+{
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.recovered
+{
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.died
+{
+    text-align: center;
+}
+
+.infectedToday
+{
+    text-align: center;
+}
+
+.recoveredToday
+{
+    text-align: center;
+}
+
+.diedToday
+{
+    text-align: center;
+}
+
+.todayInfo
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search
+{
+    justify-content: center;
+    padding: 0 30rem;
 }
