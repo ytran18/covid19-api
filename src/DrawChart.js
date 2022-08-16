@@ -40,6 +40,8 @@ function DrawChart ({ location })
         }) 
     },[url]) 
 
+
+    
     let locationInfo = info.locations
 
     let numberCase = 0
