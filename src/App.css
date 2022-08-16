@@ -1,0 +1,59 @@
+.container
+{
+    flex-direction: column;
+    height: 500px;
+}
+
+.header
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.generalInfo 
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.infected
+{
+    text-align: center;
+}
+
+.recovered
+{
+    text-align: center;
+}
+
+.died
+{
+    text-align: center;
+}
+
+.infectedToday
+{
+    text-align: center;
+}
+
+.recoveredToday
+{
+    text-align: center;
+}
+
+.diedToday
+{
+    text-align: center;
+}
+
+.todayInfo
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search
+{
+    justify-content: center;
+    padding: 0 30rem;
+}
