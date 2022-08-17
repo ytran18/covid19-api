@@ -61,7 +61,7 @@ function CityInfo ({ location })
     {
         let index = 0
         for (index; index < 63; index++) {
-            if( locationInfo[index].name == location)
+            if( locationInfo[index].name === location)
             {
                 numberCase = locationInfo[index].cases
                 numberDeath = locationInfo[index].death
