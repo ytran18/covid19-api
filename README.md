@@ -18,11 +18,11 @@
  # Getting started
    First, you need an API key to access the data, here's what i have: 
     
-    ```
+
     https://api.apify.com/v2/key-value-stores/EaCBL1JNntjR3EakU/records/LATEST?disableRedirect=true
    
    Finally clone this repository, install dependencies and run the local server
     
-    ```
+    
     git clone https://github.com/royscofield/covid19-api.git
   
